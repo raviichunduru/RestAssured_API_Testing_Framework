@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="listeners.TestListeners"></listener>
+    </listeners>
+    <test parallel="methods" thread-count="8" verbose="2" preserve-order="true" name="C:/Users/admin/eclipse-workspace/RESTAssured_Framework">
+        <classes>
+            <class name="com.tests.GetTests">
+                <methods>
+                    <include name="getEmployeeDetails"/>
+                    <include name="getSpecificEmployeeDetails"/>
+                    <include name="getEmployeeDetailsUsingDataProvider"/>
+                </methods>
+            </class>
+            <class name="com.tests.PostTests">
+                <methods>
+                    <include name="postRequestUsingPOJO"/>
+                    <include name="postRequestUsingExternalFile"/>
+                    <include name="postRequestUsingExternalFile1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

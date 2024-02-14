@@ -1,0 +1,13 @@
+{
+  "id": "115",
+  "first_name": "abcd",
+  "last_name": "efgh",
+  "email": "abc@gmail.com",
+  "jobs" : ["tester","developer","manager"],
+  "fav_foods" :
+  {
+    "breakfast" : "idly",
+    "lunch" : "rice",
+    "dinner" : ["a","b","c"]
+  }
+}

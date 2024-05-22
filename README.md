@@ -1,3 +1,5 @@
+<p align="center"><img src="https://i0.wp.com/blog.knoldus.com/wp-content/uploads/2021/03/Rest-assured.jpg?w=800&amp;ssl=1" alt="project-image"></p>
+
 This project uses dummy json server, as purpose of this project is to build a robust framework to test / validate Rest API interactions.
 
 Below are practises followed in this frame work.

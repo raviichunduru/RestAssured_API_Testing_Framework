@@ -6,13 +6,13 @@ Below are practises followed in this frame work.
 
 2. Integration with Extent reports, each test report inclues request, response body, exception details if test failed. 
 
-3. Implemented Framework constants to flag each method with author and category and inject same into extent reports for better user experience.
+3. Implemented Framework annotations to flag each method with author and category and inject same into extent reports for better user experience.
 
 4. Data driven tests demonstration using TestNG's DataProvider annotation
 
 5. Schema validation for Response JSON, using JsonSchemaValidator class
 
-6. Implemented thread local for extent objects for multi thread test runs.
+6. Used ThreadLocal for extent objects for multi thread test runs.
 
 7. Usage of TestNG listeners to manage extent report initialization, flush, logging test status into report.
 
